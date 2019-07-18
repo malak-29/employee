@@ -1,0 +1,35 @@
+.paneldiv{
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    border: 1px solid silver;
+    background-color: white;
+}
+
+.paneldiv table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #D4D2D3;
+}
+.paneldiv th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #D4D2D3;
+    border-collapse: collapse;
+    font-weight: 600;
+  }
+
+.panelhead{
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    font-weight: 600;
+}
+.panelbody{
+    padding: 20px;
+}
+.data{
+    cursor: pointer;
+}
+.data:hover{
+    background-color: #D4D2D3;
+}

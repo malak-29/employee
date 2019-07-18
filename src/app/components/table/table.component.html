@@ -1,0 +1,19 @@
+<div class="paneldiv">
+  <div class="panelhead">
+    Employees
+  </div>
+  <div class="panelbody">
+    <table>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Salary</th>
+          <th>Status</th>
+        </tr>
+        <tr class="data" app-emprecord *ngFor="let employee of employeeList" [employee]="employee">
+         
+        </tr>
+      </table>
+    </div>
+</div>

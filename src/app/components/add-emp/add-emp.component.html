@@ -1,0 +1,32 @@
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modalheader">
+        Add Employee
+      </div>
+      <form [formGroup]="employee" (ngSubmit)="add()" required>      
+        <div>
+          <input placeholder="Id" type="text" formControlName="id" required>
+          <div *ngIf="this.employee.id.errors.required">
+              Name is required.
+            </div>
+        </div>
+          <div>
+            <input placeholder="Name" type="text" formControlName="name" required>
+          </div>
+         
+          <div>
+            <input placeholder="Age" type="text" formControlName="age" required>
+          </div>
+          <div>
+              <input placeholder="Salary" type="text" formControlName="salary" required>
+          </div>
+            
+        <div class="buttons">
+            <button (click)="close()" type="button">Cancel</button>
+            <button type="submit">Add </button>
+        </div>
+      </form>
+    </div>  
+</div>

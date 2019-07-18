@@ -1,0 +1,22 @@
+.navbar {
+    background-color:#2A87B2 !important;
+    color: #fff;
+    text-align: left;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.navbar button{
+    margin-left: 10px;
+    float: right;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    color:#2A87B2;
+}
+.navbar button:focus{
+    background-color: #BCDDE4;
+}
